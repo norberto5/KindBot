@@ -1,0 +1,4 @@
+﻿log.error(text)
+log.warning(text)
+log.write(text)
+log.debug(text)

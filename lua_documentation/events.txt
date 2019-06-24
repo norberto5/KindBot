@@ -1,0 +1,20 @@
+﻿a.user
+{
+	event.userJoinedTheServer.add(o, a)
+	event.userLeftTheServer.add(o, a)
+}
+
+a.user a.channelId
+{
+	event.userSwitchedChannel.add(o, a)
+}
+
+a.user a.message
+{
+	event.userSentPrivateMssage.add(o, a)
+}
+
+a.user a.cmd
+{
+	event.userSentCommand.add(o, a)
+}

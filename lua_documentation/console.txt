@@ -1,0 +1,5 @@
+﻿console.write(text, [color])
+console.writeLine(text, [color])
+console.debug(text)
+console.warning(text)
+console.error(text)

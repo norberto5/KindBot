@@ -1,0 +1,4 @@
+﻿int commands.getClientsCountWithGroup(groupid)
+commands.sendGlobalMessage(message)
+commands.quit()
+int[] commands.getClientListOfServerGroup(groupid)
